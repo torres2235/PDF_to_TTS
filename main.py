@@ -25,7 +25,7 @@ tts_name = input("Name your TTS file (do not include file type): ")
 voice_to_use = 'en-US_AllisonV3Voice'
 
 print("Generating TTS file, please wait, this may take a minute . . .")
-with open(f'translated/{tts_name}.mp3', 'wb+') as audio_file:
+with open(f'converted/{tts_name}.mp3', 'wb+') as audio_file:
     audio_file.write(
         text_to_speech.synthesize(
             text_to_translate,
@@ -33,4 +33,4 @@ with open(f'translated/{tts_name}.mp3', 'wb+') as audio_file:
             accept='audio/mp3'
         ).get_result().content
     )
-print("File Generated, check 'PDFs' folder")
+print("File Generated, check 'converted' folder")
