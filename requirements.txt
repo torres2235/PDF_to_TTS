@@ -1,0 +1,2 @@
+ibm-watson>=7.0.0
+pypdf>=4.3.1
