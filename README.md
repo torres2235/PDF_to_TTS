@@ -1,4 +1,4 @@
-PDF to Text to Speech converter
+# PDF to Text to Speech converter
 
 - Made using the IBM Watson Text to Speech API and pypdf library
 - Move any files you want converted into the 'PDFs' file
